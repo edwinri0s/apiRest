@@ -5,7 +5,7 @@ const app = express()
 const archivoBD = require('./conexion')
 
 //Importación del archivo de rutas y modelo usuario
-const rutausuario = require('./rutas/usuario')
+const rutausuario = require('./back/rutas/usuario')
 
 //Importar body parser
 const bodyParser = require('body-parser')
